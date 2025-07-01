@@ -10,7 +10,7 @@ Phase Response	Can be linear (no phase distortion)
 Feedback	None (non-recursive)
 Design Simplicity	Easier to design compared to IIR
 
-****#FIR Filter Equation****
+****#$FIR Filter Equation****
 
 The output 
 𝑦
