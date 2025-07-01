@@ -11,6 +11,7 @@ Feedback	None (non-recursive)
 Design Simplicity	Easier to design compared to IIR
 
 **#FIR Filter Equation**
+
 The output 
 𝑦
 [
@@ -62,19 +63,27 @@ h[k]: filter coefficients (impulse response)
 𝑁
 N: number of taps (filter order + 1)
 
+
 **Advantages**
+
+
 Guaranteed stability (no feedback).
 
 Linear phase possible (important in audio and communication).
 
 Easily implemented on DSPs and FPGAs.
 
+
 **Disadvantages**
+
+
 Typically requires more computation than IIR filters for similar sharpness.
 
 May need more memory (due to more taps).
 
 **Applications**
+
+
 Audio processing
 
 Image processing
@@ -85,7 +94,10 @@ Biomedical signal filtering
 
 Equalizers and interpolators
 
-**Common FIR Filter Types**
+
+****Common FIR Filter Types****
+
+
 Low-pass: Allows low frequencies, blocks high.
 
 High-pass: Allows high frequencies, blocks low.
